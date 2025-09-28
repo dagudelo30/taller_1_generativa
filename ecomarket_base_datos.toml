@@ -1,0 +1,303 @@
+title = "EcoMarket orders dataset"
+company = "EcoMarket"
+generated = 2025-09-27
+
+[[orders]]
+tracking_number = "20001"
+order_id = "ECO-2509-001"
+customer_name = "Ana Pérez"
+city = "Bogotá"
+product = "Botella reutilizable de acero"
+category = "Hogar"
+status = "Procesando"
+carrier = "DHL"
+track_url = "https://tracking.ecomarket.example/dhl/20001"
+notes = "Confirmación de inventario."
+delayed = false
+eta = 2025-10-02
+last_update = 2025-09-25
+
+[[orders]]
+tracking_number = "20002"
+order_id = "ECO-2509-002"
+customer_name = "Luis Gómez"
+city = "Medellín"
+product = "Cepillo dental de bambú"
+category = "Higiene"
+status = "En preparación"
+carrier = "UPS"
+track_url = "https://tracking.ecomarket.example/ups/20002"
+notes = "Empaque sostenible en proceso."
+delayed = false
+eta = 2025-10-03
+last_update = 2025-09-27
+
+[[orders]]
+tracking_number = "20003"
+order_id = "ECO-2509-003"
+customer_name = "María Rodríguez"
+city = "Cali"
+product = "Bolsa compostable para residuos"
+category = "Hogar"
+status = "En tránsito"
+carrier = "FedEx"
+track_url = "https://tracking.ecomarket.example/fedex/20003"
+notes = "Ruta terrestre en curso."
+delayed = false
+eta = 2025-09-28
+last_update = 2025-09-25
+
+[[orders]]
+tracking_number = "20004"
+order_id = "ECO-2509-004"
+customer_name = "Carlos Sánchez"
+city = "Barranquilla"
+product = "Panel solar portátil 20W"
+category = "Energía"
+status = "Retrasado"
+carrier = "Servientrega"
+track_url = "https://tracking.ecomarket.example/servientrega/20004"
+notes = "Demora del transportista por alta demanda."
+delayed = true
+eta = 2025-10-03
+last_update = 2025-09-27
+
+[[orders]]
+tracking_number = "20005"
+order_id = "ECO-2509-005"
+customer_name = "Laura Torres"
+city = "Bucaramanga"
+product = "Shampoo sólido sin sulfatos"
+category = "Higiene"
+status = "Entregado"
+carrier = "DHL"
+track_url = "https://tracking.ecomarket.example/dhl/20005"
+notes = "Entregado al receptor."
+delayed = false
+eta = 2025-09-26
+last_update = 2025-09-27
+
+[[orders]]
+tracking_number = "20006"
+order_id = "ECO-2509-006"
+customer_name = "Jorge Díaz"
+city = "Cartagena"
+product = "Detergente ecológico concentrado"
+category = "Limpieza"
+status = "Intento de entrega fallido"
+carrier = "UPS"
+track_url = "https://tracking.ecomarket.example/ups/20006"
+notes = "No había quien recibiera; reintento programado."
+delayed = true
+eta = 2025-09-29
+last_update = 2025-09-25
+
+[[orders]]
+tracking_number = "20007"
+order_id = "ECO-2509-007"
+customer_name = "Camila Herrera"
+city = "Pereira"
+product = "Filtro de agua de carbón activado"
+category = "Hogar"
+status = "Retenido por aduana"
+carrier = "FedEx"
+track_url = "https://tracking.ecomarket.example/fedex/20007"
+notes = "Documentación adicional requerida por aduana."
+delayed = true
+eta = 2025-10-01
+last_update = 2025-09-25
+
+[[orders]]
+tracking_number = "20008"
+order_id = "ECO-2509-008"
+customer_name = "Andrés López"
+city = "Manizales"
+product = "Lámpara LED solar exterior"
+category = "Energía"
+status = "En revisión de pago"
+carrier = "Servientrega"
+track_url = "https://tracking.ecomarket.example/servientrega/20008"
+notes = "Verificando confirmación de pago con el banco."
+delayed = true
+eta = 2025-10-05
+last_update = 2025-09-27
+
+[[orders]]
+tracking_number = "20009"
+order_id = "ECO-2509-009"
+customer_name = "Paula Ríos"
+city = "Armenia"
+product = "Cargador solar USB"
+category = "Energía"
+status = "Procesando"
+carrier = "DHL"
+track_url = "https://tracking.ecomarket.example/dhl/20009"
+notes = "Confirmación de inventario."
+delayed = false
+eta = 2025-10-02
+last_update = 2025-09-25
+
+[[orders]]
+tracking_number = "20010"
+order_id = "ECO-2509-010"
+customer_name = "Felipe Castro"
+city = "Ibagué"
+product = "Cubiertos reutilizables de bambú"
+category = "Cocina"
+status = "En preparación"
+carrier = "UPS"
+track_url = "https://tracking.ecomarket.example/ups/20010"
+notes = "Empaque sostenible en proceso."
+delayed = false
+eta = 2025-10-03
+last_update = 2025-09-26
+
+[[orders]]
+tracking_number = "20011"
+order_id = "ECO-2509-011"
+customer_name = "Sofía Martínez"
+city = "Palmira"
+product = "Termo aislado reciclado"
+category = "Hogar"
+status = "En tránsito"
+carrier = "FedEx"
+track_url = "https://tracking.ecomarket.example/fedex/20011"
+notes = "Ruta terrestre en curso."
+delayed = false
+eta = 2025-09-28
+last_update = 2025-09-27
+
+[[orders]]
+tracking_number = "20012"
+order_id = "ECO-2509-012"
+customer_name = "Daniel Ramírez"
+city = "Cúcuta"
+product = "Jabón artesanal vegano"
+category = "Higiene"
+status = "Retrasado"
+carrier = "Servientrega"
+track_url = "https://tracking.ecomarket.example/servientrega/20012"
+notes = "Demora del transportista por alta demanda."
+delayed = true
+eta = 2025-10-01
+last_update = 2025-09-27
+
+[[orders]]
+tracking_number = "20013"
+order_id = "ECO-2509-013"
+customer_name = "Valentina Ortiz"
+city = "Pasto"
+product = "Bolsas de tela para mercado"
+category = "Hogar"
+status = "Entregado"
+carrier = "DHL"
+track_url = "https://tracking.ecomarket.example/dhl/20013"
+notes = "Entregado al receptor."
+delayed = false
+eta = 2025-09-26
+last_update = 2025-09-25
+
+[[orders]]
+tracking_number = "20014"
+order_id = "ECO-2509-014"
+customer_name = "Juan Sebastián"
+city = "Neiva"
+product = "Pajillas (pitillos) de acero"
+category = "Cocina"
+status = "Intento de entrega fallido"
+carrier = "UPS"
+track_url = "https://tracking.ecomarket.example/ups/20014"
+notes = "No había quien recibiera; reintento programado."
+delayed = true
+eta = 2025-09-29
+last_update = 2025-09-25
+
+[[orders]]
+tracking_number = "20015"
+order_id = "ECO-2509-015"
+customer_name = "Natalia Muñoz"
+city = "Villavicencio"
+product = "Esponja vegetal (lufa)"
+category = "Higiene"
+status = "Retenido por aduana"
+carrier = "FedEx"
+track_url = "https://tracking.ecomarket.example/fedex/20015"
+notes = "Documentación adicional requerida por aduana."
+delayed = true
+eta = 2025-10-01
+last_update = 2025-09-25
+
+[[orders]]
+tracking_number = "20016"
+order_id = "ECO-2509-016"
+customer_name = "Raúl Pineda"
+city = "Soledad"
+product = "Compostera doméstica 15L"
+category = "Hogar"
+status = "En revisión de pago"
+carrier = "Servientrega"
+track_url = "https://tracking.ecomarket.example/servientrega/20016"
+notes = "Verificando confirmación de pago con el banco."
+delayed = true
+eta = 2025-10-02
+last_update = 2025-09-25
+
+[[orders]]
+tracking_number = "20017"
+order_id = "ECO-2509-017"
+customer_name = "Mónica Vélez"
+city = "Montería"
+product = "Cera vegana para wraps"
+category = "Cocina"
+status = "Procesando"
+carrier = "DHL"
+track_url = "https://tracking.ecomarket.example/dhl/20017"
+notes = "Confirmación de inventario."
+delayed = false
+eta = 2025-10-02
+last_update = 2025-09-25
+
+[[orders]]
+tracking_number = "20018"
+order_id = "ECO-2509-018"
+customer_name = "Esteban Quintero"
+city = "Santa Marta"
+product = "Kit de reciclaje doméstico"
+category = "Hogar"
+status = "En preparación"
+carrier = "UPS"
+track_url = "https://tracking.ecomarket.example/ups/20018"
+notes = "Empaque sostenible en proceso."
+delayed = false
+eta = 2025-10-03
+last_update = 2025-09-25
+
+[[orders]]
+tracking_number = "20019"
+order_id = "ECO-2509-019"
+customer_name = "Carolina Salazar"
+city = "Tunja"
+product = "Detergente para ropa hipoalergénico"
+category = "Limpieza"
+status = "En tránsito"
+carrier = "FedEx"
+track_url = "https://tracking.ecomarket.example/fedex/20019"
+notes = "Ruta terrestre en curso."
+delayed = false
+eta = 2025-10-01
+last_update = 2025-09-27
+
+[[orders]]
+tracking_number = "20020"
+order_id = "ECO-2509-020"
+customer_name = "Diego Agudelo"
+city = "Popayán"
+product = "Taza de café reutilizable"
+category = "Cocina"
+status = "Retrasado"
+carrier = "Servientrega"
+track_url = "https://tracking.ecomarket.example/servientrega/20020"
+notes = "Demora del transportista por alta demanda."
+delayed = true
+eta = 2025-10-04
+last_update = 2025-09-25

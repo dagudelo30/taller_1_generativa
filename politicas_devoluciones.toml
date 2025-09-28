@@ -1,0 +1,33 @@
+[policy]
+company = "EcoMarket"
+window_days = 30        # ventana estándar
+doa_days = 7            # DOA = daño a la llegada
+refund_days = "5–10"    # días hábiles
+
+requirements = [
+  "Empaque original",
+  "Producto sin uso",
+  "Comprobante de compra"
+]
+
+allowed_categories = ["Hogar", "Cocina", "Energía", "Limpieza"]
+
+non_returnable = [
+  "Perecederos",
+  "Higiene/cosmética abiertos",
+  "Ropa interior usada",
+  "Productos personalizados"
+]
+
+steps = [
+  "Solicitar número de seguimiento/pedido, fecha de entrega y motivo",
+  "Validar elegibilidad según la política",
+  "Generar etiqueta, empacar y entregar en el punto indicado",
+  "Procesar reembolso en 5–10 días hábiles tras recepción"
+]
+
+alternatives = [
+  "Soporte de uso",
+  "Cambio por artículo elegible",
+  "Guía de reciclaje responsable"
+]
